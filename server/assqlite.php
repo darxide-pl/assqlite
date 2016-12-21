@@ -11,7 +11,7 @@ $method = $_POST['method'];
 
 if($method == 'exec')
 {
-	$db->query($_POST['queryString']);
+	$db->exec($_POST['queryString']);
 }
 
 $result = array();
